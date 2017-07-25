@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title>WebCalc</title>
+  </head>
+  <body>
+      <div class="content">
+        <div class="display">
+          <div class="display_calculation"></div>
+          <div class="display_result"></div>
+        </div>
+        <div class="buttons_container">
+        <div class="buttons_main">
+          <div class="mainbutton button 7" id="button-7">7</div>
+          <div class="mainbutton button 8">8</div>
+          <div class="mainbutton button 9">9</div>
+          <div class="mainbutton button 4">4</div>
+          <div class="mainbutton button 5">5</div>
+          <div class="mainbutton button 6">6</div>
+          <div class="mainbutton button 1">1</div>
+          <div class="mainbutton button 2">2</div>
+          <div class="mainbutton button 3">3</div>
+          <div class="mainbutton button comma">.</div>
+          <div class="mainbutton button 0">0</div>
+          <div class="mainbutton button clear">CE</div>
+        </div>
+        <div class="buttons_operators">
+          <div class="operatorbutton button divide">÷</div>
+          <div class="operatorbutton button multiply">×</div>
+          <div class="operatorbutton button subtract">-</div>
+          <div class="operatorbutton button add">+</div>
+          <div class="operatorbutton button equals">=</div>
+        </div>
+      </div>
+      </div>
+      <div class="toast copy" style='display:none'>Copied!</div>
+      <div class="toast info" style="display:none">
+        Press <i>i</i> for more information and imprint</div>
+      <div class="toast impressum" style="display:none">
+        <p>
+          <h1><i>WebCalc</i> made by <i>NyxCode</i> aka <i>Moritz Bischof</i></h1>
+          <p class="instructions">
+            Use the buttons or your keyboard to type<br/><br/>
+            <i>Brackets</i> are supported.
+          </p>
+          <a href="impressum.html">Imprint</a>
+        </p>
+        <button class="close_impressum">Close</button>
+      </div>
+  </body>
+</html>

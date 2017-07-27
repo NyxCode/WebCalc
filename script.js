@@ -1,4 +1,4 @@
-$(document).ready(() => main())
+$(document).ready(function() { main() });
 
 const ERROR = "Error"
 const ESCAPE = 27

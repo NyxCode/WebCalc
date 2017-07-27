@@ -1,5 +1,4 @@
-
-setTimeout(() => main(), 500)
+$(document).ready(() => main())
 
 const ERROR = "Error"
 const ESCAPE = 27
